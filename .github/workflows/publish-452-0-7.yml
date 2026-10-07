@@ -1,0 +1,91 @@
+name: Publish secure OTA 452.0.7
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-452-0-7.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ARTIFACT_URL: 'https://sdmntpritalynorth.oaiusercontent.com/files/00000000-5b10-8246-96b5-e3916c920cfa/raw?se=2026-10-07T17%3A09%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=effa5610-ab6b-5f41-be2a-54112bef6e7c&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T04%3A19%3A36Z&ske=2026-10-08T04%3A19%3A36Z&sks=b&skv=2026-02-06&sig=kaFhKJAAmGyVft2KCnd8YpFhGJaJW9W4pYq%2BZWvOPo8%3D'
+      EXPECTED_ARTIFACT_SHA256: 'cceabbdfbafb72bb5207ee73c16e6d2c3cd8ad2ebe4ad90e537706aa28bd9004'
+      EXPECTED_ENCRYPTED_SHA256: '993b91c1fa81446646b59621a5969101b3c3763c1588460d42e498dcd2286f9e'
+      EXPECTED_SOURCE_SHA: '5e7caae6a2ce87ece1c5c4deffd202bf5d3264a8'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download verified secure artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 "$ARTIFACT_URL" -o /tmp/secure-artifact.zip
+          test "$(sha256sum /tmp/secure-artifact.zip | awk '{print $1}')" = "$EXPECTED_ARTIFACT_SHA256"
+          rm -rf /tmp/secure-artifact
+          mkdir -p /tmp/secure-artifact
+          unzip -q /tmp/secure-artifact.zip -d /tmp/secure-artifact
+
+      - name: Verify exact encrypted payload and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f /tmp/secure-artifact/secure-452.0.7.zip
+          test -f /tmp/secure-artifact/latest.secure.json
+          test -f /tmp/secure-artifact/secure-receipt.json
+          ACTUAL="$(sha256sum /tmp/secure-artifact/secure-452.0.7.zip | awk '{print $1}')"
+          test "$ACTUAL" = "$EXPECTED_ENCRYPTED_SHA256"
+          python - <<'PY'
+          import json, os, pathlib, re
+          root = pathlib.Path('/tmp/secure-artifact')
+          manifest = json.loads((root/'latest.secure.json').read_text())
+          receipt = json.loads((root/'secure-receipt.json').read_text())
+          assert manifest['schema'] == 1
+          assert manifest['enabled'] is True
+          assert manifest['channel'] == 'owner'
+          assert manifest['nativeVersionCode'] == 452
+          assert manifest['version'] == '452.0.7'
+          assert manifest['sourceCommit'] == os.environ['EXPECTED_SOURCE_SHA']
+          assert manifest['url'].endswith('/bundles/452.0.7.zip')
+          assert re.fullmatch(r'[0-9a-fA-F]{512}', manifest['checksum'])
+          assert ':' in manifest['sessionKey']
+          assert receipt['version'] == '452.0.7'
+          assert receipt['sourceCommit'] == os.environ['EXPECTED_SOURCE_SHA']
+          assert receipt['encryptedBundleSha256'] == os.environ['EXPECTED_ENCRYPTED_SHA256']
+          assert receipt['encryptedChecksum'] == manifest['checksum']
+          assert receipt['sessionKey'] == manifest['sessionKey']
+          assert receipt['runtimeSourceHash'] == manifest['runtimeSourceHash']
+          assert receipt['nativeVersionCode'] == 452
+          PY
+
+      - name: Publish exact bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p bundles receipts
+          cp /tmp/secure-artifact/secure-452.0.7.zip bundles/452.0.7.zip
+          cp /tmp/secure-artifact/secure-receipt.json receipts/452.0.7.json
+          python - <<'PY'
+          import datetime, json, pathlib
+          p = pathlib.Path('/tmp/secure-artifact/latest.secure.json')
+          m = json.loads(p.read_text())
+          m['publishedAt'] = datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z')
+          pathlib.Path('latest.json').write_text(json.dumps(m, indent=2) + '\n')
+          PY
+          test "$(sha256sum bundles/452.0.7.zip | awk '{print $1}')" = "$EXPECTED_ENCRYPTED_SHA256"
+
+      - name: Commit publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "AumNote OTA Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add bundles/452.0.7.zip receipts/452.0.7.json latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "publish(ota): secure 452.0.7 owner test"
+          git push origin HEAD:main
