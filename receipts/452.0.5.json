@@ -1,0 +1,16 @@
+{
+  "schema": 3,
+  "encryption": "capgo-runtime-compatible",
+  "capgoCliVersion": "8.71.0",
+  "updaterVersion": "8.51.7",
+  "sourceCommit": "1a8792dbf4baa874e44492ae23575b66a17b8791",
+  "baseMainCommit": "2fd49251c744a7e0c1f6fbb5dc8a184fa1ba172f",
+  "nativeVersionCode": 452,
+  "version": "452.0.5",
+  "runtimeSourceHash": "4d7bedbc3f5e244c471c0896d17056ad8a8ce86747198d92f4472dad6b89edc0",
+  "plainBundleSha256": "fa22707ed794c58a87e2321f62ea650f89243b5373bbc0810dc7576af05939e0",
+  "encryptedBundleSha256": "245ae1c17c0cdcb60d0a184a8d5b6488db42adeeee666d07b25fb242b01a2e7c",
+  "encryptedChecksum": "8441b16011fee082024215c763b406de224ba41681c2667353f90709fd1396bbfbe4c8fad1c37fd7c4883e227fb00502181aef6b5b86ee9c96653e4ac650f66d607d5232b8d3da5a1458188ee42a8c7df9a3a63e1d31921201d733b30d2c0c0d16922b75f3bf15edf3ab9040ddf454d5a96c8565a9abcbbbd3da8cb8a55ff2d0b2992e7688d4db0f2a1db6ffd722747902c164c89bbec429516629ecaacb908290f3bda7febdd6c07c9ad42493aadd67595616aa71a7f33ac9af234b4b9bf52457c65f5fa4e8c6fc8ba76ec49dc422e2c6b29ccdf3dfa18840321d729fc47a7a9e75c160b00c3cd71cc09b72d2ce8140ed83386d058248fc9797aa59eff13a02",
+  "sessionKey": "IOZRaUUyZOLVW8h2+9W84A==:Qt94WRyzPLcre9eaKQt23ba7so+VBQMbh64y3di1nGNrmKX3goqRMDLyWn6uwxMfwuVCTVhLLD4KLL7Bj1fGPqLm9T6sJ2LvMOStGtHMVOmrUquLzYFfwXzo2B+XQ1y7r+q07aiS1aeF+YZQ/GcSe1KReRxWZie7wuij1hTH7ZYorMAPUATky/2BodKH65J/LXz8/f1hzhVj4pNm28bUUMMxZg878KqzPkCkOZtVchWPoLkyanj2UOE/IFlR1yJq9I7eoth/ruyTzKHJjJvBr5cmilkB76u3s/FpOmXesbcCafdBkWogJjsYUu+usJKLrZ+Y5CTLEh4QAv6Q97s39g==",
+  "publicKeySha256": "25e00d523f7d288e64d458a2af5d7cdd5663d0794f61705e95ef61d7e8b13b10"
+}
