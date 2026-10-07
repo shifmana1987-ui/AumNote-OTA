@@ -13,3 +13,11 @@ Canonical rules:
 - Keep `latest.json.enabled=false` until a bundle has passed the canonical device acceptance gate.
 
 Current native family: **450**.
+
+Owner-acceptance delivery order:
+
+`AumNote/candidate/owner -> OTA bundle -> owner's phone -> OWNER OK -> AumNote/main`
+
+OTA is therefore a **pre-merge owner-testing transport**, not a post-`main`
+deployment step. A failed candidate never changes `main`.
+
