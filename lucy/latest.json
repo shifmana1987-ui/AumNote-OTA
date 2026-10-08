@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "appId": "app.aumnote.astro",
+  "enabled": false,
+  "nativeFamily": 3,
+  "version": "3.0.0",
+  "reason": "Awaiting persistent authority and accepted Lucy OTA native shell"
+}
