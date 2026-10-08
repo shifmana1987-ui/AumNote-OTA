@@ -3,11 +3,11 @@
   "enabled": true,
   "channel": "owner",
   "nativeVersionCode": 452,
-  "version": "452.0.12",
-  "url": "https://raw.githubusercontent.com/shifmana1987-ui/AumNote-OTA/main/bundles/452.0.12.zip",
-  "checksum": "05301982764367c3821f824320af9b4e1f9633d39d45b53e7f56fb247fd2e5d0a2d3119e5893dfcd434aba3394d673d2a20d58c30d8d129fcd036a149f08cd1cbe9587b5d4a17480b011e4143635411cb4248f6fe02bc7dd7e5309f48f81e069207d861b1fbbed7ecf2849e6c619ff20c63694648b1476b402ddc7805d6ee334c748bfda77d57740574fc728700be7609fda676de42cb8c9e0abe6d67b689d27c40a3a36ca978eb55c7d7b06dbe82c033a057a7865daba7cce1871fde0b5792b83e9d0aaf571b36eb4eac833a76b658fdc1fe45424c3c5eb4798aa62febc7f8ce034224fcdabfe375f2a476e01b4bd09aee2c58ae18086e496e80a5aecc8e77b",
-  "sessionKey": "VoN+ghEi3GnbBeOP3G3htg==:Qx2t7JdvzV68W7PA/Aez+ASkZo8O41QT/4xNaIFCt6UVqS+7RZ09I3O6BhS+V0Sg9NYYsEum/bpKtO8V/Oj/aBkXivPr/VDTh1SJuWKi7I9mB4CdbKyaZlYm7xrX5eO6/TMb3FyIIobmc1yd+NSu2/9sI4urEkh6r3pyaq9g+EAmWtXPI7TDHpwMinDgiDNtJeWy7+rkXVe9cKpM14SUltd+R1FPHPhEJqTPdA5z/ziZ9PIk790aEWn4VBUWNlU8LmnhC/xNVIys0L25p3TPN3M5LmlAtYU79vjv/XXXAXczVJldqCRP2Se9xn+WnYdpY+gJz16dlHFgxn6VvP8N3w==",
-  "sourceCommit": "fad7c8042b9fc04183c77ed74ecc60268eb7840f",
-  "runtimeSourceHash": "b6a26231eb7b91da92a3e88e633b5891b8401710f27f05f0fc2076d5c71b60df",
-  "publishedAt": "2026-10-08T11:05:33.166476+00:00"
+  "version": "452.0.13",
+  "url": "https://raw.githubusercontent.com/shifmana1987-ui/AumNote-OTA/main/bundles/452.0.13.zip",
+  "checksum": "25b7e95b77504c1a9b2f0c1c557906f3f92d1f7c3cef0d896932ba35f3dff315f445a6bed8ecf70cfdf9a62c3bd79b6de2ea831074e8f8c5b5a2f98a55d66bf6be19d02757c8350a96d7255b71a737a8008637b61c83f5c870edfa77180db68ec5a796f697f5569b5d2b16b86ecc4d05bc8ff489de8134aa62e00e6bd641ae98daac068c818f697c12b3f96178731781c1e1c676ba7593a27301bf5430b2ca3c0b25cf124bfac6b64965d6c96217b66b9be7cf15f9f74947b1f14f59e7c503684beabb550b4dd0479a799d72fce9d6805a5e9b347e4d189acb5322ace84a2c3d0528dee7acea67b2f10e5f128de0c8e2c5911c3513d16a56f7d970d36209a757",
+  "sessionKey": "PEmdfxiOTjqGbb0JdYvrWg==:OLCCb7idmdkA05k2a72bLYmm9YcSJsQ9yucYnL2Lfn+60DSKIP+fT1WQg41d7apyU4wEKYaNHvQgC/OPRBNG+O+DfHnzGiWJ0vAnEhhlmQ6sHUJJiP05kPJ+9DfKd1X3lg5R3aDu5UrEMqde5QmBUSeggDO1Ex1hKF5mLW8jFrSW2Bmeqvc/C07Qll2ycK7X7YtBx0CUE/WRwO3p1+8j0Jdo4df85KV/vpMYQEN7di6/2DEawgHcuoEhVpJnyeAJF+RNlgS7fe9j5NH3Cy+qFrVKCC4R+41y2fRASJmh9rh+rnTVsYF0sGCtrE7g05uzPZOzZ3AXDc//JEsKO9wJgA==",
+  "sourceCommit": "7ab686925df68c30a6e19e6fe774da24671eadd9",
+  "runtimeSourceHash": "be0f671b07310d3ec8c802ef81894d49fdf360d4b7888e8061a73f5aa9669aeb",
+  "publishedAt": "2026-10-08T11:26:53.911280+00:00"
 }
