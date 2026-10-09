@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "appId": "app.aumnote.astro",
+  "nativeFamily": 4,
+  "nativeShellHash": "3d21c4da55e86a6922a521c6c16c0ef503e751e4f9a754860e1c90f0e270c3a4",
+  "publicKeySha256": "ee36657c284bc785f985a5748db6d27efdc9251c08a7b309d7f25ddbb3d48325",
+  "version": "4.0.3",
+  "sourceCommit": "fcf3ae2e8ac5562e756afc6556a0e0de9581a39f",
+  "enabled": true,
+  "checksum": "0989818f39247b33e1c08df26ad2efc82fcb40c980c3329f0c2b1e47c3937a47b3d56e2e46a6d9734551fe0f694fcc64b017c18308d20574dd1c12158f8d0320593a0c6bc3e52784e73ca67d297c0ff0a0047609cd3fd90851169ffec83f8ff153d81eee6d554871c82d41a837ed74dadb3286b78bce59dc13110a44554bb3a773995c3a08113fd8d0cc3e1c1dc45dda7b0b7b38a4acb48338843a0365ee4e647d88071f8a66ef9861261a9db777fba7d9589e23a182e4b94aeec3003597047c78620d2ecd9158f2a658cfb9c6cbbbaa44a0bd8eee20ddd5c6de5ed1006362075df5aaafcc54802462c84a8ccb6e2522c2c77f1bf8bf9db144abb3ca28b3684b",
+  "sessionKey": "IvwfudqOgPi/VXaKRx9m4Q==:hXEyhyxA4GMprEoDldM/vE5ggmvZBiGIMnSlKywDGz2UV4XmntG8pnYhLkBth1yvwLMTeMK+8Wxk513Ma6zlJH3wSTu8OQZADCwSmjrXDcW3tIN6JYRFdjBgjkkUWWpXDmW34z/h83svvW2y5fhKBu3UX5rjB3W9Q5x/F1xdEfb78d8RuYv6po8aC8s/uuXZ2vNYIrfjxkLi2aATdX/kIkmcrYB1ruIfW+L2CBaAS7CfsbtakyoAa5BGxJJMAKPWiEXEHylhWOlWAr8LMHeHoHubub4/MssdQdRCl2QXpoYl1Uwl7rwYZFQBxnkryOXLzC1PETBb0AzRKbmiDMnvkg==",
+  "url": "https://raw.githubusercontent.com/shifmana1987-ui/AumNote-OTA/main/lucy/bundles/4.0.3.zip",
+  "encryptedSha256": "2a8489484312f204c9187aaccc59d540deabf9853a15e2f19aa4429ecdf92fbb",
+  "plainSha256": "0876bbdc4f621696314afacc1ee41917472bf2791bca4b97da69a54b60f11e2f",
+  "packager": "@capgo/cli@8.71.0"
+}
