@@ -1,0 +1,15 @@
+{
+  "version": "452.0.41",
+  "changes": {
+    "ru": [
+      "В календаре эмоций можно послушать музыку выбранного периода — от недели до года.",
+      "Музыка следует истории записей. Её можно поставить на паузу, перемотать или закрыть."
+    ],
+    "en": [
+      "Listen to music from the selected emotion-calendar period, from a week to a year.",
+      "Music follows your recorded history. Pause, seek or close the player at any time."
+    ]
+  },
+  "sourceCommit": "cd544fa86767c8f6113231f34eddaf8566297550",
+  "publishedAt": "2026-10-10T14:01:23.124647+00:00"
+}
