@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "452.0.42",
+      "changes": {
+        "ru": [
+          "Случайные эмоции в режиме разработчика теперь можно послушать во всех периодах от недели до года.",
+          "Текущая обитель придаёт музыке свой характер. Обители можно сравнить на одной тестовой истории.",
+          "Добавлены новая случайная история и примеры с подъёмом, спадом и редкими эмоциями."
+        ],
+        "en": [
+          "Listen to random developer emotions at every scale from a week to a year.",
+          "Your current abode gives music its own character. Compare abodes on the same test history.",
+          "Generate another random history or try rising, falling and sparse emotion examples."
+        ]
+      },
+      "sourceCommit": "8f72ceb8f1d9c043370e1f0db8cbf0a4672484c8",
+      "publishedAt": "2026-10-10T15:36:03.532241+00:00"
+    },
+    {
       "version": "452.0.41",
       "changes": {
         "ru": [
