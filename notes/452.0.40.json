@@ -1,0 +1,15 @@
+{
+  "version": "452.0.40",
+  "changes": {
+    "ru": [
+      "В окне загрузки видно, что меняется в новой версии.",
+      "Там же можно раскрыть список предыдущих обновлений."
+    ],
+    "en": [
+      "The download window explains what changes in the new version.",
+      "You can open the earlier update list in the same window."
+    ]
+  },
+  "sourceCommit": "6c37544c8462aa338591143ef93893a3c74b1e40",
+  "publishedAt": "2026-10-10T11:38:10.452684+00:00"
+}

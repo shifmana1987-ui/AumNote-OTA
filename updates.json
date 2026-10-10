@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "version": "452.0.40",
+      "changes": {
+        "ru": [
+          "В окне загрузки видно, что меняется в новой версии.",
+          "Там же можно раскрыть список предыдущих обновлений."
+        ],
+        "en": [
+          "The download window explains what changes in the new version.",
+          "You can open the earlier update list in the same window."
+        ]
+      },
+      "sourceCommit": "6c37544c8462aa338591143ef93893a3c74b1e40",
+      "publishedAt": "2026-10-10T11:38:10.452684+00:00"
+    },
+    {
+      "version": "452.0.39",
+      "changes": {
+        "ru": [
+          "Дата на главной открывает календарь задач. Календарь эмоций открывается отдельно."
+        ],
+        "en": [
+          "The Home date opens the task calendar. Emotion history opens separately."
+        ]
+      },
+      "sourceCommit": "debeae1638bf448e418172399beb29220e2dfe13",
+      "publishedAt": "2026-10-10T09:29:27.820284+00:00"
+    },
+    {
+      "version": "452.0.38",
+      "changes": {
+        "ru": [
+          "Удобнее движение по небу. Переход к пейзажу стал мягче."
+        ],
+        "en": [
+          "Sky gestures are easier. The landscape blends more smoothly."
+        ]
+      },
+      "sourceCommit": "d8419741993dc3138c784d004e4c529cdfd35eb5",
+      "publishedAt": "2026-10-10T07:32:44.051170+00:00"
+    },
+    {
+      "version": "452.0.37",
+      "changes": {
+        "ru": [
+          "На небе заметнее галактический пейзаж, даже без телескопа."
+        ],
+        "en": [
+          "The Galactic landscape is more visible, even without the telescope."
+        ]
+      },
+      "sourceCommit": "733d90b6f53c47e7303b70e91e12110540f2d035",
+      "publishedAt": "2026-10-10T06:11:37.612311+00:00"
+    },
+    {
+      "version": "452.0.36",
+      "changes": {
+        "ru": [
+          "В конце сгорания исчезает и последняя обугленная полоска карточки."
+        ],
+        "en": [
+          "The last charred strip disappears at the end of a burn."
+        ]
+      },
+      "sourceCommit": "58f9b74d5699c2661977e5827a0ccd25f62c506b",
+      "publishedAt": "2026-10-10T05:37:08.037617+00:00"
+    },
+    {
+      "version": "452.0.35",
+      "changes": {
+        "ru": [
+          "В глубоком небе появились области для исследования."
+        ],
+        "en": [
+          "Deep sky has new regions to explore."
+        ]
+      },
+      "sourceCommit": "3d8dee2c6b3e0f86f837282da0616160d7d43e2f",
+      "publishedAt": "2026-10-10T04:51:16.318914+00:00"
+    },
+    {
+      "version": "452.0.34",
+      "changes": {
+        "ru": [
+          "Длинный свайп сжигает карточку навсегда. Короткий только скрывает её."
+        ],
+        "en": [
+          "A long swipe burns a card forever. A short swipe only hides it."
+        ]
+      },
+      "sourceCommit": "8fd62dbe82974ba86758fee3acc963b5d9807487",
+      "publishedAt": "2026-10-10T04:17:06.112577+00:00"
+    },
+    {
+      "version": "452.0.33",
+      "changes": {
+        "ru": [
+          "Небесные тела продолжают двигаться во время полёта к звёздам."
+        ],
+        "en": [
+          "Celestial bodies keep moving during flights to stars."
+        ]
+      },
+      "sourceCommit": "99b27ed6a8f69b6f7fa7eaa5c5497b6ca9db306d",
+      "publishedAt": "2026-10-09T22:24:08.279883+00:00"
+    },
+    {
+      "version": "452.0.32",
+      "changes": {
+        "ru": [
+          "Фраза «Твоё время бесценно» появляется выразительнее после открытия глаза."
+        ],
+        "en": [
+          "The priceless-time message appears more expressively after the eye opens."
+        ]
+      },
+      "sourceCommit": "c19d504bb308833b1a2e2fc077eb8bffbdd35e2b",
+      "publishedAt": "2026-10-09T21:48:53.914907+00:00"
+    },
+    {
+      "version": "452.0.31",
+      "changes": {
+        "ru": [
+          "Глаз оживает раньше. Бриллиант точнее подвешен и мягко сияет."
+        ],
+        "en": [
+          "The eye comes alive sooner. The diamond hangs more naturally and softly shines."
+        ]
+      },
+      "sourceCommit": "9d301687059b1c46ad232066e4ff5ca0d5f77856",
+      "publishedAt": "2026-10-09T21:15:11.452369+00:00"
+    },
+    {
+      "version": "452.0.30",
+      "changes": {
+        "ru": [
+          "Добавлены новое спокойное дыхание глаза и реакции на самые тяжёлые эмоции."
+        ],
+        "en": [
+          "Added another calm eye animation and reactions to the lowest moods."
+        ]
+      },
+      "sourceCommit": "f1027555236d5ff41c03651437f7b2506333c259",
+      "publishedAt": "2026-10-09T20:48:10.383722+00:00"
+    },
+    {
+      "version": "452.0.29",
+      "changes": {
+        "ru": [
+          "Обновления проверяются чаще. После сбоя загрузка может повториться автоматически."
+        ],
+        "en": [
+          "Updates are checked more often. A failed download can retry automatically."
+        ]
+      },
+      "sourceCommit": "15b6e4f74cbf6005fb720c07f5f556f2f4e3a2af",
+      "publishedAt": "2026-10-09T20:30:34.069956+00:00"
+    },
+    {
+      "version": "452.0.28",
+      "changes": {
+        "ru": [
+          "Уточнены реакции глаза и его поведение на главной."
+        ],
+        "en": [
+          "Refined eye reactions and its behaviour on Home."
+        ]
+      },
+      "sourceCommit": "ad0308b48b434a9db110eab76e27aeac9370e244",
+      "publishedAt": "2026-10-09T19:39:34.376902+00:00"
+    },
+    {
+      "version": "452.0.27",
+      "changes": {
+        "ru": [
+          "Глаз получил пять реакций без ИИ и согласованный циферблат."
+        ],
+        "en": [
+          "The eye has five reactions without AI and a coordinated clock face."
+        ]
+      },
+      "sourceCommit": "dad2a31b88f81d1bd278e9fe674be0507a98d9b7",
+      "publishedAt": "2026-10-09T17:59:52.752653+00:00"
+    },
+    {
+      "version": "452.0.26",
+      "changes": {
+        "ru": [
+          "Ресницы и края глаза очищены. Переходы между видео согласованы."
+        ],
+        "en": [
+          "Cleaned the eyelashes and eye edges. Video transitions are better matched."
+        ]
+      },
+      "sourceCommit": "75f14e51cf588762ee3083453c00e7d68bfd12fd",
+      "publishedAt": "2026-10-09T12:25:24.212906+00:00"
+    },
+    {
+      "version": "452.0.25",
+      "changes": {
+        "ru": [
+          "Убраны мерцающие просветы по краям глаза."
+        ],
+        "en": [
+          "Removed flickering gaps around the eye."
+        ]
+      },
+      "sourceCommit": "2a4a5d05347d3d5dc87929779285a9eb49634c2f",
+      "publishedAt": "2026-10-09T11:30:09.436437+00:00"
+    },
+    {
+      "version": "452.0.24",
+      "changes": {
+        "ru": [
+          "Очищены края глаза и смягчены переходы видео."
+        ],
+        "en": [
+          "Cleaned eye edges and softened video transitions."
+        ]
+      },
+      "sourceCommit": "97a91df6c93b978662f173092b95bd4b8bbf104b",
+      "publishedAt": "2026-10-09T09:07:39.131267+00:00"
+    },
+    {
+      "version": "452.0.23",
+      "changes": {
+        "ru": [
+          "Видео глаза работает без интернета и сохраняет нужный кадр."
+        ],
+        "en": [
+          "Eye video works offline and holds its active frame."
+        ]
+      },
+      "sourceCommit": "b1f97d84cbecd7d1e6732577f14852f30334c748",
+      "publishedAt": "2026-10-09T08:37:11.871308+00:00"
+    },
+    {
+      "version": "452.0.22",
+      "changes": {
+        "ru": [
+          "Убрано наложение подвески. Секундная стрелка стала понятнее."
+        ],
+        "en": [
+          "Removed pendant overlap and clarified the second hand."
+        ]
+      },
+      "sourceCommit": "454c835478ae5ed8e668e20d8b08b34733f05cd0",
+      "publishedAt": "2026-10-09T07:19:54.186437+00:00"
+    },
+    {
+      "version": "452.0.21",
+      "changes": {
+        "ru": [
+          "Глаз остаётся на главной и плавно появляется. Бриллиант виден."
+        ],
+        "en": [
+          "The eye stays on Home and appears smoothly. The diamond remains visible."
+        ]
+      },
+      "sourceCommit": "3c834d96b53f3268efcaeadd0eb58356aa990e5f",
+      "publishedAt": "2026-10-09T07:02:01.713521+00:00"
+    },
+    {
+      "version": "452.0.20",
+      "changes": {
+        "ru": [
+          "На главной появился пробуждающийся глаз Высшего Я."
+        ],
+        "en": [
+          "Added the Higher Self eye awakening on Home."
+        ]
+      },
+      "sourceCommit": "0626a0de6622e7db0523cb6b90dfcc7bbf398b46",
+      "publishedAt": "2026-10-09T05:17:57.612728+00:00"
+    },
+    {
+      "version": "452.0.19",
+      "changes": {
+        "ru": [
+          "Календарь эмоций стал спокойнее. Максимальный обзор — год."
+        ],
+        "en": [
+          "Emotion history looks calmer. The largest view is one year."
+        ]
+      },
+      "sourceCommit": "01bbf6ff3f5905265106c2363cc8e921d1c660b7",
+      "publishedAt": "2026-10-08T17:56:33.341865+00:00"
+    },
+    {
+      "version": "452.0.18",
+      "changes": {
+        "ru": [
+          "Масштабы календаря эмоций согласованы. Выбранный день сохраняется при переходах."
+        ],
+        "en": [
+          "Emotion calendar scales are consistent. The selected day survives navigation."
+        ]
+      },
+      "sourceCommit": "873e6987b743b063df449fd503394547db87616e",
+      "publishedAt": "2026-10-08T15:32:44.051029+00:00"
+    },
+    {
+      "version": "452.0.17",
+      "changes": {
+        "ru": [
+          "Вернулась мозаика года с цветом записанной эмоции для каждого дня."
+        ],
+        "en": [
+          "Restored the year mosaic with a recorded mood colour for each day."
+        ]
+      },
+      "sourceCommit": "9e75655287a1ca8e77c164e77ddf60240edb90d5",
+      "publishedAt": "2026-10-08T14:24:07.158276+00:00"
+    },
+    {
+      "version": "452.0.16",
+      "changes": {
+        "ru": [
+          "В «Сегодня» виден следующий шаг цели. Шаги можно выбирать и переставлять."
+        ],
+        "en": [
+          "Today shows the next goal step. Steps can be chosen and reordered."
+        ]
+      },
+      "sourceCommit": "c48cb714f96d593b9d831b5ab7a95849ab9e7bb2",
+      "publishedAt": "2026-10-08T13:52:14.606549+00:00"
+    },
+    {
+      "version": "452.0.15",
+      "changes": {
+        "ru": [
+          "Крупные периоды показывают сводку эмоций. Даты месяца стали компактнее."
+        ],
+        "en": [
+          "Larger periods show emotion summaries. Month dates are more compact."
+        ]
+      },
+      "sourceCommit": "9a473b9fe4cbe71aac3380328820ca48d77567f3",
+      "publishedAt": "2026-10-08T13:32:04.528383+00:00"
+    },
+    {
+      "version": "452.0.14",
+      "changes": {
+        "ru": [
+          "Исправлены переходы и возврат в календаре эмоций."
+        ],
+        "en": [
+          "Fixed navigation and Back in emotion history."
+        ]
+      },
+      "sourceCommit": "dae3e2a1c60b76615d341ddbce6672401c328419",
+      "publishedAt": "2026-10-08T13:07:01.155111+00:00"
+    },
+    {
+      "version": "452.0.13",
+      "changes": {
+        "ru": [
+          "Сетка месяца плотнее. Полоски эмоций показываются согласованно."
+        ],
+        "en": [
+          "The month grid is denser. Emotion bands are displayed consistently."
+        ]
+      },
+      "sourceCommit": "7ab686925df68c30a6e19e6fe774da24671eadd9",
+      "publishedAt": "2026-10-08T11:26:53.911280+00:00"
+    },
+    {
+      "version": "452.0.12",
+      "changes": {
+        "ru": [
+          "Календарь эмоций доработан после проверки на телефоне."
+        ],
+        "en": [
+          "Refined emotion history after phone feedback."
+        ]
+      },
+      "sourceCommit": "fad7c8042b9fc04183c77ed74ecc60268eb7840f",
+      "publishedAt": "2026-10-08T11:05:33.166476+00:00"
+    },
+    {
+      "version": "452.0.11",
+      "changes": {
+        "ru": [
+          "Обзор года лучше помещается на экране. Жесты сохраняют соседние периоды."
+        ],
+        "en": [
+          "The year view fits the screen better. Gestures retain nearby periods."
+        ]
+      },
+      "sourceCommit": "ba1f6af59cce9b9847bca16fb41d401fff9d84a4",
+      "publishedAt": "2026-10-08T09:43:33.603960+00:00"
+    },
+    {
+      "version": "452.0.10",
+      "changes": {
+        "ru": [
+          "Проверены повторная блокировка дневника и возврат из редактора."
+        ],
+        "en": [
+          "Checked diary relocking and returning from the editor."
+        ]
+      },
+      "sourceCommit": "1a3d0367cc6a7f44ce0b6c4e9c16689a5694f9b3",
+      "publishedAt": "2026-10-08T07:52:39.795340+00:00"
+    },
+    {
+      "version": "452.0.9",
+      "changes": {
+        "ru": [
+          "Добавлены дневники для записей."
+        ],
+        "en": [
+          "Added diaries for notes."
+        ]
+      },
+      "sourceCommit": "9ade6fb555239e6abc4910c4bc731e45b71e25af",
+      "publishedAt": "2026-10-08T05:18:54.781480+00:00"
+    },
+    {
+      "version": "452.0.7",
+      "changes": {
+        "ru": [
+          "После установки обновления появляется краткое подтверждение."
+        ],
+        "en": [
+          "A brief confirmation appears after an update is applied."
+        ]
+      },
+      "sourceCommit": "5e7caae6a2ce87ece1c5c4deffd202bf5d3264a8",
+      "publishedAt": "2026-10-07T17:05:15.584578Z"
+    },
+    {
+      "version": "452.0.6",
+      "changes": {
+        "ru": [
+          "На главной появилась шкала загрузки обновлений."
+        ],
+        "en": [
+          "Added an update progress bar on Home."
+        ]
+      },
+      "sourceCommit": "a8d7308c3670759a2cb290729c86f044c27512f0",
+      "publishedAt": "2026-10-07T15:55:25.743819Z"
+    },
+    {
+      "version": "452.0.5",
+      "changes": {
+        "ru": [
+          "Первый опубликованный проверочный выпуск защищённого обновления."
+        ],
+        "en": [
+          "The first published test release of encrypted updates."
+        ]
+      },
+      "sourceCommit": "1a8792dbf4baa874e44492ae23575b66a17b8791",
+      "publishedAt": "2026-10-07T12:35:32.605431Z"
+    }
+  ]
+}
