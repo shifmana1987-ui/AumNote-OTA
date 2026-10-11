@@ -1,0 +1,19 @@
+{
+  "version": "452.0.43",
+  "changes": {
+    "ru": [
+      "«Назад» закрывает меню задачи и подробности обновления. Меню задачи также закрывается нажатием вне него.",
+      "Обычная шкала эмоций до выбора и окна важной даты закрываются через Android «Назад».",
+      "Вложенные подтверждения отменяются раньше основного окна.",
+      "При прямом входе «Назад» возвращает из дня в календарь, а из календаря — на главную."
+    ],
+    "en": [
+      "Back closes the task menu and update details. Tap outside the task menu to dismiss it.",
+      "Android Back closes the ordinary mood scale before selection and the important-date panels.",
+      "Nested confirmations dismiss before their parent window.",
+      "On direct entry, Back returns from a day to Calendar and from Calendar to Home."
+    ]
+  },
+  "sourceCommit": "c72016dff4762df861f9e163bd9b51f2699e9d28",
+  "publishedAt": "2026-10-11T11:05:25.447003+00:00"
+}
