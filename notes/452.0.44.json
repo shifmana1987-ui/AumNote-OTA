@@ -1,0 +1,19 @@
+{
+  "version": "452.0.44",
+  "changes": {
+    "ru": [
+      "Задачи сохраняются при выходе. Дата и будильник настраиваются отдельно; перенос даты сохраняет выбранное время.",
+      "После возврата из задачи поиск остаётся на месте. Из эмоции можно создать или связать задачу.",
+      "Редактор поддерживает крупный шрифт и клавиатуру. Выполнение задачи остаётся на главной и в списке дня.",
+      "Если будильник не удалось передать Android, задача показывает ошибку и предлагает повторить."
+    ],
+    "en": [
+      "Tasks save when you leave. Set a day and alarm separately; changing the day preserves the chosen time.",
+      "Returning from a task restores your search. Create or link a task from an emotion.",
+      "The editor supports larger text and the keyboard. Complete tasks on Home or in the day list.",
+      "If an alarm cannot be sent to Android, the task shows an error and offers Retry."
+    ]
+  },
+  "sourceCommit": "1950ee6e62d2de03a1463867eaab412807b73cbb",
+  "publishedAt": "2026-10-12T03:53:03.539757+00:00"
+}
