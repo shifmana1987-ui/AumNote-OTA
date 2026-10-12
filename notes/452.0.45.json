@@ -1,0 +1,17 @@
+{
+  "version": "452.0.45",
+  "changes": {
+    "ru": [
+      "При вводе задачи дата и будильник остаются видны и доступны.",
+      "Нажатие на дату или будильник открывает настройку без потери введённого текста.",
+      "После скрытия клавиатуры Android «Назад» возвращает из редактора. В рисунке эта кнопка сначала закрывает открытую панель."
+    ],
+    "en": [
+      "Task date and alarm stay visible and usable while typing.",
+      "Tap the date or alarm to open its settings without losing entered text.",
+      "After hiding the keyboard, Android Back leaves the editor. In drawing, Back closes an open panel first."
+    ]
+  },
+  "sourceCommit": "5971ad227a31c527648a21448edfcf5bd545e305",
+  "publishedAt": "2026-10-12T06:42:04.474514+00:00"
+}
