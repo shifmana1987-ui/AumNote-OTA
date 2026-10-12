@@ -2,6 +2,25 @@
   "schema": 1,
   "releases": [
     {
+      "version": "452.0.48",
+      "changes": {
+        "ru": [
+          "Оживи глаз: он мягко реагирует на наклон телефона, включая диагонали. Силу движения можно настроить.",
+          "Включи «Повторять моргание»: глаз отвечает на твои моргания. Камера обрабатывает изображение на телефоне и выключается вместе с глазом.",
+          "Уточняй эмоцию готовыми словами или своими: выбор больше не закрывается по таймеру.",
+          "На карточке доступны символы с поиском и короткий необязательный текст."
+        ],
+        "en": [
+          "Bring the Eye to life: it gently responds to phone tilt, including diagonals. Choose the movement strength.",
+          "Turn on “Mirror my blinks” to make the Eye follow your blinks. Camera images are processed on your phone; capture stops when the Eye closes.",
+          "Refine emotions with suggested or custom words, without the automatic closing timer.",
+          "Cards offer searchable symbols and a short optional text entry."
+        ]
+      },
+      "sourceCommit": "6d161dc255b5b3d61d6a03569717f79a8e36b615",
+      "publishedAt": "2026-10-12T13:16:52.191620+00:00"
+    },
+    {
       "version": "452.0.46",
       "changes": {
         "ru": [
