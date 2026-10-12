@@ -1,0 +1,15 @@
+{
+  "version": "452.0.46",
+  "changes": {
+    "ru": [
+      "Стрелка «Назад» в заметке возвращает к предыдущему экрану, не создавая круговых переходов.",
+      "Новая заметка из календаря сохраняет день и месяц после автосохранения."
+    ],
+    "en": [
+      "Back in a note returns to the previous screen without creating a navigation loop.",
+      "A new note created from Calendar keeps its day and month after autosave."
+    ]
+  },
+  "sourceCommit": "d72d6bb6a4699b72eea6093e2c2a9a077865f514",
+  "publishedAt": "2026-10-12T09:19:40.547624+00:00"
+}
