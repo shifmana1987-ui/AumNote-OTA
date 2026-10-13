@@ -1,0 +1,17 @@
+{
+  "version": "459.0.1",
+  "changes": {
+    "ru": [
+      "Восстановлена доставка обновлений для установленной APK 459.",
+      "В «Рисунках» нажатие на работу открывает крупный просмотр с названием, датой, скачиванием и отправкой.",
+      "Редактирование доступно отдельной кнопкой. Все работы остаются в одной галерее."
+    ],
+    "en": [
+      "Restored update delivery for installed APK 459.",
+      "Tap an artwork in Drawings to view it with its title, date, download and sharing actions.",
+      "Editing has a separate button. All artworks stay in one gallery."
+    ]
+  },
+  "sourceCommit": "6c1c875d5c8ad44e90dee882ee50818d4969b0ff",
+  "publishedAt": "2026-10-13T11:32:27.762733+00:00"
+}
