@@ -2,6 +2,25 @@
   "schema": 1,
   "releases": [
     {
+      "version": "459.0.3",
+      "changes": {
+        "ru": [
+          "Живой глаз сохраняет принятую внешность: веки и ресницы остаются цельными при движении взгляда.",
+          "Улучшены реакция на наклоны и восстановление после сбоя датчиков.",
+          "Повторение моргания подстраивается под раскрытие твоих век. Полное закрытие видно и при 30 кадрах/с.",
+          "Часы скрываются за веками. При отсутствии лица или медленной обработке камеры появляется понятная подсказка."
+        ],
+        "en": [
+          "Live gaze preserves the accepted eye anatomy, with intact eyelids and lashes.",
+          "Improved tilt response and recovery when sensor updates stop.",
+          "Blink mirroring adapts to your eyelid aperture. Full closure remains visible at 30 fps.",
+          "Clock hands clip behind the lids. Missing faces or slow camera processing show a clear status."
+        ]
+      },
+      "sourceCommit": "0e4d553ba67cb71703fea0403cc7aa9fd4c1ab89",
+      "publishedAt": "2026-10-13T18:03:00.668506+00:00"
+    },
+    {
       "version": "459.0.2",
       "changes": {
         "ru": [
