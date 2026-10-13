@@ -1,0 +1,19 @@
+{
+  "version": "459.0.2",
+  "changes": {
+    "ru": [
+      "В меню одной выбранной эмо-карточки появился «Образ эмоций»: выбери 1–3 художников и создай картину своего состояния.",
+      "Эмоция, оттенки, символы, заголовок, текст, палитра и необязательная обитель влияют на образ.",
+      "Готовая картина сохраняется в «Рисунках» вместе со снимком исходной карточки. Можно открыть, скачать и поделиться.",
+      "Проверка незавершённого результата не запускает новую платную генерацию. Художник использует действующий API Люси."
+    ],
+    "en": [
+      "The menu for one selected emotion card now includes Emotion artwork: choose 1–3 artists and create a painting of your state.",
+      "Emotion, nuances, symbols, title, text, palette and an optional abode shape the image.",
+      "Finished paintings are saved to Drawings with an original card snapshot, ready to view, download and share.",
+      "Checking a pending result never starts another paid generation. The artist uses the existing Lucy API."
+    ]
+  },
+  "sourceCommit": "42344013b91d7452625fbd30d4d758125542a3bf",
+  "publishedAt": "2026-10-13T14:24:15.201714+00:00"
+}
