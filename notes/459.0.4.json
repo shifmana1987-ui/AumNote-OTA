@@ -1,0 +1,19 @@
+{
+  "version": "459.0.4",
+  "changes": {
+    "ru": [
+      "Исправлено исчезновение живого глаза при неподвижном взгляде и смене чувствительности.",
+      "Камера сохраняет сеанс во время реакций глаза. Моргание подстраивается под привычное раскрытие век.",
+      "Вызванный глаз открывается под карточками. Настройки свёрнуты и доступны по кнопке «Настроить глаз».",
+      "После закрытия камень сразу возвращается на своё место."
+    ],
+    "en": [
+      "Fixed live-eye disappearance during a steady gaze and sensitivity changes.",
+      "The camera keeps its session during eye reactions. Blink calibration adapts to normal eyelid aperture.",
+      "The invoked eye opens below the cards. Settings are collapsed under Eye settings.",
+      "The gem returns to its resting position immediately after closing."
+    ]
+  },
+  "sourceCommit": "d4dc63a3df29d0677367e974286a67b7f2065268",
+  "publishedAt": "2026-10-13T21:03:30.603964+00:00"
+}
