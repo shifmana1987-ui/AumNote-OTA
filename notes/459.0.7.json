@@ -1,0 +1,15 @@
+{
+  "version": "459.0.7",
+  "changes": {
+    "ru": [
+      "Сгорание карточек больше не перекрывает открытое Око.",
+      "При закрытом Оке прежний порядок слоёв сгорания сохранён."
+    ],
+    "en": [
+      "Burning cards no longer cover the opened Eye.",
+      "The resting Eye keeps the previous burn layer order."
+    ]
+  },
+  "sourceCommit": "6cbfb59ea7c35cb13f9be6c4d32f0f631b271ad3",
+  "publishedAt": "2026-10-14T10:06:09.519159+00:00"
+}
