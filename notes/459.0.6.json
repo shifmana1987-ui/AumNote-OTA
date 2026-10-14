@@ -1,0 +1,17 @@
+{
+  "version": "459.0.6",
+  "changes": {
+    "ru": [
+      "Радужка, зрачок и тёмный ободок двигаются вместе при наклоне телефона, без растягивания рисунка.",
+      "Часы показывают текущее время, следуют за взглядом и скрываются под веками при моргании.",
+      "Живой глаз больше не запрашивает камеру. Естественное моргание сохранено."
+    ],
+    "en": [
+      "The iris, pupil and dark rim move together when you tilt the phone, without stretching the artwork.",
+      "The clock shows current time, follows the gaze and stays behind the eyelids during blinks.",
+      "Live Eye no longer requests camera access. Natural blinking remains."
+    ]
+  },
+  "sourceCommit": "1dc1f7c51a15d9d9d7571d8d37e3fff7da05277d",
+  "publishedAt": "2026-10-14T08:47:47.272722+00:00"
+}
