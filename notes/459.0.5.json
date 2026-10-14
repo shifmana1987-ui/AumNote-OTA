@@ -1,0 +1,19 @@
+{
+  "version": "459.0.5",
+  "changes": {
+    "ru": [
+      "Живой глаз включается одной сохранённой галочкой в настройках поведения: наклон, естественное моргание и отклик на моргание пользователя.",
+      "Смещение взгляда уменьшено; после движения он мягко возвращается к центру. Устранены резкие сбросы при переключении датчиков и вмешательство фоновых сценариев.",
+      "Вызов глаза больше не прокручивает заметки вниз. Отдельная панель управления глазом убрана.",
+      "Переработаны захват кадров камеры и согласование морганий; ошибки камеры теперь сохраняют конкретную причину."
+    ],
+    "en": [
+      "One saved checkbox in Behavior settings enables tilt response, natural blinking and mirrored user blinking.",
+      "Gaze movement is minimal and softly returns to center. Sensor handoffs preserve continuity and background presence scenarios no longer interrupt live mode.",
+      "Invoking the Eye preserves note scroll position. The separate Eye control panel has been removed.",
+      "Camera capture and blink coordination were revised; camera failures retain distinct diagnostic causes."
+    ]
+  },
+  "sourceCommit": "d5f33dc99dcd36a5d0ccbc92171da6acbd0e3ae8",
+  "publishedAt": "2026-10-14T05:45:15.214986+00:00"
+}
