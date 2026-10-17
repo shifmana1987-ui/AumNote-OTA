@@ -1,0 +1,13 @@
+{
+  "version": "501.0.1",
+  "changes": {
+    "ru": [
+      "Исправлено открытие настроек озвучки в практике с Оком: окно видно и экран больше не блокируется."
+    ],
+    "en": [
+      "Fixed Eye practice sound settings opening behind the fullscreen practice and blocking interaction."
+    ]
+  },
+  "sourceCommit": "2070a17a5f6c840ba52271d937c1f4f8e2e50a2e",
+  "publishedAt": "2026-10-17T03:02:03.944773+00:00"
+}
