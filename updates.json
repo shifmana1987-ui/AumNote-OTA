@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "501.0.3",
+      "changes": {
+        "ru": [
+          "Убрана автоматическая подсветка инструмента: способ работы с эмоцией выбираешь ты.",
+          "Написать, записать голос и нарисовать собраны под заголовком «Выразить». Отдельные показатели сохранены.",
+          "«Попробовать иначе» теперь стоит первым в окне помощи."
+        ],
+        "en": [
+          "Removed the automatic highlighted tool so you can choose how to work with an emotion.",
+          "Writing, voice and drawing are grouped under Express, keeping their individual statistics.",
+          "Try something different now appears first in the help sheet."
+        ]
+      },
+      "sourceCommit": "94a835535f6020ddeb26475c236fbc0bf46f419c",
+      "publishedAt": "2026-10-17T09:11:16.421536+00:00"
+    },
+    {
       "version": "501.0.2",
       "changes": {
         "ru": [
