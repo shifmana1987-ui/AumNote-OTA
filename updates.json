@@ -2,6 +2,19 @@
   "schema": 1,
   "releases": [
     {
+      "version": "501.0.4",
+      "changes": {
+        "ru": [
+          "«Выразить» теперь одна компактная карточка. Нажми, чтобы раскрыть письмо, голос и рисунок со статистикой каждого инструмента."
+        ],
+        "en": [
+          "Express is now one compact card. Tap to reveal writing, voice and drawing with each tool’s individual statistics."
+        ]
+      },
+      "sourceCommit": "dbfc66040485ac054037259dad615751276940b1",
+      "publishedAt": "2026-10-17T10:47:30.333776+00:00"
+    },
+    {
       "version": "501.0.3",
       "changes": {
         "ru": [
