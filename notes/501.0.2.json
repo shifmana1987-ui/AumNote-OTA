@@ -1,0 +1,17 @@
+{
+  "version": "501.0.2",
+  "changes": {
+    "ru": [
+      "Образы эмоций: пункт художника остаётся доступным при ошибке подключения.",
+      "Добавлено восстановление ранее созданных картин, если их оригинал доступен у художника, без новой генерации.",
+      "Полные копии сохраняют музыку «Звука неба», незавершённый запрос художника и просмотренные сцены Майи."
+    ],
+    "en": [
+      "Emotion artwork: the artist action stays visible when its connection is unavailable.",
+      "Existing paintings can recover their available artist original without a new generation.",
+      "Full backups preserve Sky Sound music, the pending artwork request and previously viewed Maya scenes."
+    ]
+  },
+  "sourceCommit": "91aad39d3f078e368b43d04ff5ad702abe897221",
+  "publishedAt": "2026-10-17T04:54:15.860057+00:00"
+}
