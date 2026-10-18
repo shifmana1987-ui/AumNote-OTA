@@ -1,0 +1,17 @@
+{
+  "version": "501.0.8",
+  "changes": {
+    "ru": [
+      "Статистика быстрой помощи стала компактнее: количество практик и баллы без таблиц, нулевых строк и дробей успешности.",
+      "В пояснениях сначала показаны смысл, возможная польза и действия. Исследования и источники открываются отдельно.",
+      "Для «Блоков» понятнее объяснена эмоциональная передышка через игру в удобном темпе."
+    ],
+    "en": [
+      "Support statistics now show concise practice counts and points without tables, empty rows or success fractions.",
+      "Practice information leads with purpose, possible benefits and steps. Research details and sources open separately.",
+      "Blocks now explains an emotional break through engaging play at a comfortable pace."
+    ]
+  },
+  "sourceCommit": "51e75aadcb50cd2da26f11308ac9706df14d73d5",
+  "publishedAt": "2026-10-18T17:20:49.982704+00:00"
+}
