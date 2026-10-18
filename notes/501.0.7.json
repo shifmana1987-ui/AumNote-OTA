@@ -1,0 +1,19 @@
+{
+  "version": "501.0.7",
+  "changes": {
+    "ru": [
+      "Игра теперь называется «Блоки». Поле стало крупнее, счёт и следующая фигура занимают меньше места.",
+      "У каждой быстрой практики есть объяснение: зачем она нужна, как выполнять и на чём основана.",
+      "Короткая статистика видна прямо в карточках. Незавершённые практики можно продолжить без повторяющихся пунктов в списке.",
+      "Исправлены длинные инструкции и размеры кнопок оценки. После завершения больше не показывается оставшееся время."
+    ],
+    "en": [
+      "The game is now called Blocks. A larger board and a compact score/next-piece display give more room to play.",
+      "Each support practice explains its purpose, steps, evidence and limits.",
+      "Brief statistics are visible on cards. Saved practices remain accessible without repeated resume entries.",
+      "Long instructions and assessment controls fit better. Completed practices no longer show remaining time."
+    ]
+  },
+  "sourceCommit": "9b241b8d8258653523fc6c4f02f707718c15bbbd",
+  "publishedAt": "2026-10-18T15:43:09.738850+00:00"
+}
