@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "501.0.5",
+      "changes": {
+        "ru": [
+          "В помощи из эмо-карточки появились короткие практики с таймером, паузой и отдельной оценкой состояния.",
+          "Добавлена игра «Собрать линии»: два темпа, игровые очки и личные рекорды. Партию можно продолжить после закрытия.",
+          "Результаты быстрой помощи входят в статистику эмоции и резервную копию. Баллы начисляются по оценке состояния; игровые очки считаются отдельно."
+        ],
+        "en": [
+          "Emotion cards now offer short support practices with a timer, pause and a separate feeling check-in.",
+          "Added Collect Lines with two tempos, game points and personal bests. Saved games can be resumed after reopening.",
+          "Quick-support outcomes are included in emotion statistics and backups. Growth follows the feeling assessment; game points remain separate."
+        ]
+      },
+      "sourceCommit": "6f8ccf7a5b91694cb9c574f30d2b824145b618bd",
+      "publishedAt": "2026-10-18T10:52:59.158921+00:00"
+    },
+    {
       "version": "501.0.4",
       "changes": {
         "ru": [
