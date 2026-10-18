@@ -2,6 +2,25 @@
   "schema": 1,
   "releases": [
     {
+      "version": "501.0.9",
+      "changes": {
+        "ru": [
+          "Номер установленной версии остаётся в шапке. Нажми на него, чтобы увидеть изменения.",
+          "В описании версии можно открыть историю предыдущих обновлений.",
+          "Старые успешно работавшие пакеты обновлений очищаются автоматически после запуска новой версии.",
+          "Текущая и предыдущая рабочие версии сохраняются. Записи, рисунки и голосовые заметки не затрагиваются."
+        ],
+        "en": [
+          "The installed version stays in the header. Tap it to see what changed.",
+          "Open earlier release history from the version details.",
+          "Obsolete successful update bundles are cleaned up automatically after the new version starts.",
+          "The current and previous working versions are retained. Your entries, drawings and voice notes are untouched."
+        ]
+      },
+      "sourceCommit": "deedea09b684e41ba34b2a1af5fc41f9b03fc656",
+      "publishedAt": "2026-10-18T19:28:45.391176+00:00"
+    },
+    {
       "version": "501.0.8",
       "changes": {
         "ru": [
