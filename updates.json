@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "501.0.6",
+      "changes": {
+        "ru": [
+          "Короткие практики открываются на весь экран. Око скрывается на время работы с инструментом.",
+          "В игре «Собрать линии» увеличено поле: веди фигуру пальцем, касайся для поворота и смахивай вниз, чтобы опустить. Кнопки доступны дополнительно.",
+          "Инструкции быстрой помощи стали конкретнее. В практике общения больше нет предложения убрать телефон."
+        ],
+        "en": [
+          "Short practices now use the full screen. The Eye yields while a support tool is open.",
+          "Collect Lines has a larger board: drag to move, tap to rotate and swipe down to drop. Buttons remain available as an alternative.",
+          "Quick-support instructions are clearer. The reach-out practice no longer suggests putting away the phone."
+        ]
+      },
+      "sourceCommit": "d4c73d0688b9a09af38d035d4886f4d0d3d849a4",
+      "publishedAt": "2026-10-18T13:54:05.734585+00:00"
+    },
+    {
       "version": "501.0.5",
       "changes": {
         "ru": [
