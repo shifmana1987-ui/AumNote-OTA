@@ -1,0 +1,17 @@
+{
+  "version": "501.0.10",
+  "changes": {
+    "ru": [
+      "В окне версии появилась проверка занятого места: отдельные пакеты обновлений, файлы и кэш.",
+      "Пакет обновления уменьшен примерно на 12 МБ за счёт неиспользуемых ресурсов.",
+      "Проверка ничего не удаляет. Недоступные области отмечены; общий объём Android может отличаться."
+    ],
+    "en": [
+      "Version details now include storage measurement for individual update bundles, files and cache.",
+      "The update package is about 12 MB smaller after removing unused resources.",
+      "The check deletes nothing. Unavailable areas are marked; Android's total can differ."
+    ]
+  },
+  "sourceCommit": "5be4a8661e4407bb7f9d591e5c97d817387bb439",
+  "publishedAt": "2026-10-18T20:36:43.961770+00:00"
+}
