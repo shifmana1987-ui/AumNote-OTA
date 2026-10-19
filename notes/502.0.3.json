@@ -1,0 +1,19 @@
+{
+  "version": "502.0.3",
+  "changes": {
+    "ru": [
+      "Расслабление перед сном открывается в полноценном формате скана тела с крупной иллюстрацией.",
+      "Для сна можно записать свой голос, прослушать запись и выбрать фоновое звучание. Записи разделены по положению и длительности.",
+      "Во сне нет баллов, оценки и вибрации между этапами; завершение спокойное. При сворачивании остаётся пауза.",
+      "Предложение быстрой помощи Ока видно 12 секунд; пропущенная помощь остаётся однократно доступна в меню для актуальной эмоции."
+    ],
+    "en": [
+      "Bedtime relaxation now uses the full body-scan screen with a large body illustration.",
+      "Record and review a sleep voice guide and choose background audio. Recordings are scoped to posture and duration.",
+      "Sleep has no points, assessment or step vibrations, and ends quietly. Backgrounding still pauses the practice.",
+      "The Eye quick-help cue lasts 12 seconds; missed help remains available once in Eye actions while the mood is current."
+    ]
+  },
+  "sourceCommit": "400a0917eaedcd81232f2431032f7bf3d71e9fc4",
+  "publishedAt": "2026-10-19T09:15:31.745116+00:00"
+}
