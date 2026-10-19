@@ -1,0 +1,17 @@
+{
+  "version": "502.0.4",
+  "changes": {
+    "ru": [
+      "На Главной записи сгруппированы по дням: дата находится между карточками, внутри остаётся короткое время.",
+      "При прокрутке дата текущей группы остаётся под шапкой и сменяется при переходе к другому дню.",
+      "Время заметок соответствует выбранной сортировке; для изменённых заметок это явно обозначено."
+    ],
+    "en": [
+      "Home entries are grouped by day, with the date between cards and a compact time inside each card.",
+      "The current day's heading stays below the toolbar while scrolling and changes at the next day.",
+      "Note timestamps follow the selected sort order, with edited notes explicitly labelled."
+    ]
+  },
+  "sourceCommit": "bc3ea14a88552deed4b64dcbd65263f37d9d95b7",
+  "publishedAt": "2026-10-19T21:07:04.318396+00:00"
+}
