@@ -2,6 +2,25 @@
   "schema": 1,
   "releases": [
     {
+      "version": "502.0.2",
+      "changes": {
+        "ru": [
+          "После новой записи о тяжёлом состоянии Око ненадолго предлагает быструю помощь.",
+          "В действиях Ока появилась помощь для сна на 5, 10 или 15 минут — без баллов и оценки эмоции.",
+          "Ночное предложение помощи для сна можно настроить или отключить; ручной вход остаётся доступным.",
+          "Окно «Исцелить» закрывается по Escape; при открытии практики управление передаётся ей."
+        ],
+        "en": [
+          "After a new low-mood entry, the Eye briefly offers quick support.",
+          "Eye actions now include bedtime relaxation for 5, 10 or 15 minutes, without points or mood rating.",
+          "The bedtime offer window can be configured or disabled; manual access remains available.",
+          "The Heal sheet closes on Escape and yields navigation when a practice opens."
+        ]
+      },
+      "sourceCommit": "cc61dbc8ffe140e329fdf6bffa9c4f4d0fb67daf",
+      "publishedAt": "2026-10-19T07:47:33.874996+00:00"
+    },
+    {
       "version": "502.0.1",
       "changes": {
         "ru": [
