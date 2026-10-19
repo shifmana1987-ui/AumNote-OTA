@@ -2,6 +2,21 @@
   "schema": 1,
   "releases": [
     {
+      "version": "502.0.1",
+      "changes": {
+        "ru": [
+          "Обновление для новой версии приложения 502 с ограничением кэша обновлений и очисткой подтверждённых остатков неудачных загрузок.",
+          "Твои записи, рисунки и аудио сохраняются. Неизвестные файлы не удаляются."
+        ],
+        "en": [
+          "Update for app version 502 with an updater cache budget and cleanup of confirmed failed-download leftovers.",
+          "Your entries, drawings and audio are preserved. Unknown files are kept."
+        ]
+      },
+      "sourceCommit": "fc421b68d4aa9d85a52d1adf86c6d8bf38c8799d",
+      "publishedAt": "2026-10-19T03:59:18.746040+00:00"
+    },
+    {
       "version": "501.0.10",
       "changes": {
         "ru": [
