@@ -1,0 +1,17 @@
+{
+  "version": "502.0.9",
+  "changes": {
+    "ru": [
+      "Вложения и диктовка находятся внизу заметки: после подтверждения записи распознанный текст вставляется для редактирования.",
+      "В шапке появились понятные кнопки «КПТ» и «Поступить иначе», остальные действия собраны в «Ещё».",
+      "Даты на Главной стали компактнее и спокойнее; сохранены принятые исправления резервных снимков."
+    ],
+    "en": [
+      "Attachments and dictation sit below the note. Confirm a recording to insert recognized text for editing.",
+      "The header has readable CBT and Act differently buttons; secondary actions live under More.",
+      "Home dates are quieter and more compact. Accepted backup checkpoint fixes are retained."
+    ]
+  },
+  "sourceCommit": "63dda7369095b7e08080c50fbdf7816cb5beeeb9",
+  "publishedAt": "2026-10-20T21:08:31.931173+00:00"
+}
