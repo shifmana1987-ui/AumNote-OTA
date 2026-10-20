@@ -1,0 +1,17 @@
+{
+  "version": "502.0.7",
+  "changes": {
+    "ru": [
+      "В обычных и эмо-заметках появилось действие «Диктовать текст» в меню микрофона.",
+      "Распознанный текст можно исправить и вставить в заметку по своему решению.",
+      "Диктовка и сохранение голосового аудиовложения доступны как отдельные действия."
+    ],
+    "en": [
+      "The microphone menu in regular and emotion notes now includes Dictate text.",
+      "You can edit recognized words and choose when to insert them into your note.",
+      "Text dictation and saving a voice recording remain separate actions."
+    ]
+  },
+  "sourceCommit": "a323325bb58b3260e9f3fbab8242a4fe84146332",
+  "publishedAt": "2026-10-20T18:31:20.007466+00:00"
+}
