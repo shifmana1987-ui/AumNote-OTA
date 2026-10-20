@@ -1,0 +1,15 @@
+{
+  "version": "502.0.10",
+  "changes": {
+    "ru": [
+      "Диктовка вставляет текст в выбранное место того же поля и возвращает курсор после вставленных слов.",
+      "Убрана постоянная надпись «Незавершённая диктовка». Сохранённые черновики доступны внутри панели диктовки."
+    ],
+    "en": [
+      "Dictation inserts text at the chosen caret in the same field and restores the cursor after the inserted words.",
+      "Removed the persistent unfinished-dictation banner. Saved drafts remain available inside the dictation panel."
+    ]
+  },
+  "sourceCommit": "8b2ceecfbb393c919e610d3d63a94e7648032e12",
+  "publishedAt": "2026-10-20T22:23:53.993858+00:00"
+}
