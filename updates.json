@@ -2,6 +2,21 @@
   "schema": 1,
   "releases": [
     {
+      "version": "502.0.8",
+      "changes": {
+        "ru": [
+          "Исправлено исчезновение микрофона и дёрганье шапки при обновлении обычных и эмо-заметок.",
+          "Голосовой ввод, запись аудио и остановка теперь используют одну кнопку на постоянном месте."
+        ],
+        "en": [
+          "Fixed the microphone disappearing and the note header shifting during background updates.",
+          "Voice input, audio recording and Stop now share one button in a fixed position."
+        ]
+      },
+      "sourceCommit": "5623142257a4aac5d701c18e1059d634c5afe62a",
+      "publishedAt": "2026-10-20T19:14:37.377809+00:00"
+    },
+    {
       "version": "502.0.7",
       "changes": {
         "ru": [
