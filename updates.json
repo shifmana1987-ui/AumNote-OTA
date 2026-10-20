@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "502.0.5",
+      "changes": {
+        "ru": [
+          "Вечером в меню Ока появляется «Мой вечер» — два коротких вопроса о прошедшем и следующем дне.",
+          "Ответы сохраняются обычной заметкой. Незаконченный текст можно продолжить позже.",
+          "Короткое приглашение над слезой появляется вечером и уступает практике, вводу текста и первому вопросу о состоянии."
+        ],
+        "en": [
+          "My evening appears in the Eye menu in the evening, with two short questions about today and tomorrow.",
+          "Answers become an ordinary note. Unfinished text can be continued later.",
+          "A brief invitation above the tear appears in the evening and yields to practice, typing and the first mood check-in."
+        ]
+      },
+      "sourceCommit": "9e2ebbef405518df96f1f86d2de07388032a633a",
+      "publishedAt": "2026-10-20T05:15:09.717268+00:00"
+    },
+    {
       "version": "502.0.4",
       "changes": {
         "ru": [
