@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "502.0.11",
+      "changes": {
+        "ru": [
+          "Можно делать несколько диктовок подряд и начинать новую запись, сохранив прежнюю незавершённую отдельно.",
+          "Убраны искусственные ограничения на число запросов, число черновиков и их общий объём.",
+          "Убрана плашка «Отменить» после вставки текста, перекрывавшая микрофон."
+        ],
+        "en": [
+          "Record multiple dictations in a row and start fresh while retaining unfinished audio separately.",
+          "Removed artificial request-count, draft-count and shared draft-size quotas.",
+          "Removed the insertion Undo toast that covered the microphone."
+        ]
+      },
+      "sourceCommit": "45a6cb75054e286be61b9d8115c9d26cf3a83c67",
+      "publishedAt": "2026-10-20T23:13:06.322555+00:00"
+    },
+    {
       "version": "502.0.10",
       "changes": {
         "ru": [
