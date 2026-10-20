@@ -1,0 +1,17 @@
+{
+  "version": "502.0.6",
+  "changes": {
+    "ru": [
+      "Новые вечерние записи называются «Вечерние мысли» с датой.",
+      "Введи «веч» в поиске, чтобы найти свои вечера — от свежих к старым, с коротким фрагментом ответов.",
+      "Редактирование старого вечера не меняет его место среди вечерних записей в поиске."
+    ],
+    "en": [
+      "New evening entries are titled Evening thoughts, followed by the date.",
+      "Search for evening to find your reflections, newest first, with a short preview of your answers.",
+      "Editing an older reflection keeps its original day and position among evening search results."
+    ]
+  },
+  "sourceCommit": "04b35b6cf8a9cd1d4f9e70a9a6dabad8c08cab9a",
+  "publishedAt": "2026-10-20T06:46:20.228261+00:00"
+}
