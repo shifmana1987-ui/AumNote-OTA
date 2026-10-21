@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "508.0.2",
+      "changes": {
+        "ru": [
+          "Полностью исцелённые эмоции теперь получают живую звезду вместо смайлика и компактное имя звезды.",
+          "Облик сохраняет цвет исходной эмоции; звёзды переливаются, а спутники проходят перед ними и позади.",
+          "Уже исцелённые карточки в истории тоже получают свои звёзды."
+        ],
+        "en": [
+          "Fully healed emotions now display a living star instead of their emoji, with a compact catalogue name.",
+          "Stars retain their original emotion colour family, with inner highlights and satellites moving in front and behind.",
+          "Previously healed cards in history receive their stars too."
+        ]
+      },
+      "sourceCommit": "c677422f24a511d96174ec313a821500387c9949",
+      "publishedAt": "2026-10-21T12:36:51.481087+00:00"
+    },
+    {
       "version": "508.0.1",
       "changes": {
         "ru": [
