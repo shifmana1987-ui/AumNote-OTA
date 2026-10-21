@@ -2,6 +2,21 @@
   "schema": 1,
   "releases": [
     {
+      "version": "508.0.1",
+      "changes": {
+        "ru": [
+          "Восстановлен поиск по заметкам и эмо-заметкам коротким жестом вниз по карточкам на главной.",
+          "Глубокий жест вниз снова открывает скрытую папку. Горизонтальные жесты карточек сохранены."
+        ],
+        "en": [
+          "Restored note and mood-note search with a short downward pull on Home cards.",
+          "A deeper downward pull opens the hidden folder again. Horizontal card gestures are preserved."
+        ]
+      },
+      "sourceCommit": "ce7257ed39083d4f21f506d302e8abd9a384c1c7",
+      "publishedAt": "2026-10-21T11:00:30.744878+00:00"
+    },
+    {
       "version": "502.0.11",
       "changes": {
         "ru": [
