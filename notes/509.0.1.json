@@ -1,0 +1,15 @@
+{
+  "version": "509.0.1",
+  "changes": {
+    "ru": [
+      "Восстановлена доступность голосовой диктовки после обновления APK 509.",
+      "Сохранены стартовая анимация, поиск, живые звёзды и прежние исправления диктовки."
+    ],
+    "en": [
+      "Restored voice dictation availability after the APK 509 update.",
+      "Preserved the opening animation, search, living stars and prior dictation fixes."
+    ]
+  },
+  "sourceCommit": "3f63ef349f4b8ad1d7b2eacc5569a85d9eca0c87",
+  "publishedAt": "2026-10-22T01:32:09.465703+00:00"
+}
