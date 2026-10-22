@@ -1,0 +1,17 @@
+{
+  "version": "511.0.1",
+  "changes": {
+    "ru": [
+      "Диктовка аккуратно разделяет слова и сохраняет курсор.",
+      "✨ Сформулировать выделение, последнюю диктовку или всё поле с отменой.",
+      "Короткое знакомство с диктовкой и ✨, даже если обычные подсказки отключены."
+    ],
+    "en": [
+      "Dictation keeps word spacing and the cursor.",
+      "✨ Formulate a selection, the latest dictation or the active field with Undo.",
+      "A brief introduction to dictation and ✨, including when general hints are off."
+    ]
+  },
+  "sourceCommit": "2117e6fb54383355f86742fc9964e1940824bd46",
+  "publishedAt": "2026-10-22T16:48:56.113869+00:00"
+}
