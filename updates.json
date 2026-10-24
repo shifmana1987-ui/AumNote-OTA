@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "516.0.1",
+      "changes": {
+        "ru": [
+          "В космосе появились новые живые звёздочки в цветах исходных эмоций.",
+          "Печальные персонажи заменены доброжелательными; соседние звёздочки стали разнообразнее.",
+          "Облик каждой звёздочки сохраняется при повторном открытии карточки."
+        ],
+        "en": [
+          "New living star characters match the original emotion colours.",
+          "Sad characters are replaced with friendly ones, with more variety among nearby awards.",
+          "Each star keeps its appearance when its card is opened again."
+        ]
+      },
+      "sourceCommit": "c5af9b2017dbf5013d09a8a64a4a545e013ce755",
+      "publishedAt": "2026-10-24T09:02:31.778110+00:00"
+    },
+    {
       "version": "511.0.1",
       "changes": {
         "ru": [
