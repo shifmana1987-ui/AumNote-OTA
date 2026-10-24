@@ -2,6 +2,25 @@
   "schema": 1,
   "releases": [
     {
+      "version": "516.0.5",
+      "changes": {
+        "ru": [
+          "Резинка увереннее возвращает к твоим заработанным звёздам и терпит небольшую поправку пальцев при отпускании.",
+          "Дерево можно скрывать и раскрывать во время возврата: движение космоса продолжается.",
+          "При перетаскивании после подлёта звезда и звёздочка остаются на месте по глубине и движутся вместе.",
+          "У близких звёзд ярче раскалённая поверхность, живые локальные всполохи и мягко мерцающий ореол."
+        ],
+        "en": [
+          "The Home spring remembers outward pinch intent and tolerates small release corrections while returning to your earned stars.",
+          "Showing or hiding the tree no longer interrupts the Home return.",
+          "Dragging after arrival preserves the star depth and keeps the star and wisdom companion moving together.",
+          "Close stars gain a brighter incandescent surface, local evolving flares and a softly shimmering halo."
+        ]
+      },
+      "sourceCommit": "2bd126756520ea6b7fd0d0cc8732f4600a370fbf",
+      "publishedAt": "2026-10-24T14:05:52.354360+00:00"
+    },
+    {
       "version": "516.0.4",
       "changes": {
         "ru": [
