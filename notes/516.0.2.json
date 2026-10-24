@@ -1,0 +1,17 @@
+{
+  "version": "516.0.2",
+  "changes": {
+    "ru": [
+      "При близком подлёте к своей звезде появляется живой персонаж.",
+      "Коснись персонажа, чтобы открыть мысль с автором и источником.",
+      "Афоризмом можно поделиться в оформлении AumNote или скопировать текст."
+    ],
+    "en": [
+      "A living companion appears near your earned star during the final approach.",
+      "Tap the companion to open a thought with its author and source.",
+      "Share the thought as an AumNote image or copy its text."
+    ]
+  },
+  "sourceCommit": "c983045b6be5907574cc755acfe6e70be9e8fb28",
+  "publishedAt": "2026-10-24T09:35:05.285287+00:00"
+}
