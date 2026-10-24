@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "516.0.3",
+      "changes": {
+        "ru": [
+          "Живая звёздочка теперь появляется на расстоянии от небесного тела, без наложения.",
+          "Под афоризмом можно сохранить свой комментарий и позже отредактировать его.",
+          "Исправлено отображение описаний обновлений 516; добавлена повторная загрузка."
+        ],
+        "en": [
+          "The living companion now appears clear of the celestial star, without overlap.",
+          "Save a personal reflection below the quote and edit it later.",
+          "Release descriptions for 516 are readable again, with a direct retry option."
+        ]
+      },
+      "sourceCommit": "4c9f1972bc4e80499ac95396e3e4c6d2e9618f24",
+      "publishedAt": "2026-10-24T10:52:23.895245+00:00"
+    },
+    {
       "version": "516.0.2",
       "changes": {
         "ru": [
