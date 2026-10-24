@@ -1,0 +1,17 @@
+{
+  "version": "516.0.4",
+  "changes": {
+    "ru": [
+      "Возврат к домашнему небу с твоими звёздами срабатывает раньше: последний небольшой щипок резинка завершает сама.",
+      "Восстанавливаются недостающие Луна и планеты за уже выполненные шаги целей, включая старые записи.",
+      "Звёздочка с афоризмом держится ближе к своей звезде и на одной высоте с ней при первом и повторном подлёте."
+    ],
+    "en": [
+      "Returning to your earned-star Home sky captures the last small outward pinch sooner.",
+      "Missing Moon and planet rewards are restored from completed goal steps, including older records.",
+      "The wisdom companion stays closer to its star and level with it on first and repeated approaches."
+    ]
+  },
+  "sourceCommit": "95cfe52c1b015a8bef4ffd64e4434a5b8668a86e",
+  "publishedAt": "2026-10-24T12:25:57.477825+00:00"
+}
